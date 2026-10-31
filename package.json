@@ -1,0 +1,19 @@
+{
+  "name": "arise-ai-teacher-assistant",
+  "version": "1.0.0",
+  "private": true,
+  "type": "module",
+  "description": "ARISE — Modern Minds, Rooted Souls | AI-supported teaching and values-led learning prototype",
+  "scripts": {
+    "start": "node server.js",
+    "dev": "node --watch server.js",
+    "check": "node --check server.js"
+  },
+  "engines": { "node": ">=20" },
+  "dependencies": {
+    "express": "^5.1.0",
+    "express-rate-limit": "^8.1.0",
+    "helmet": "^8.1.0",
+    "openai": "^5.20.0"
+  }
+}
