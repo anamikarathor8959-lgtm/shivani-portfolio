@@ -3,7 +3,7 @@ services:
     name: arise-ai-teacher-assistant
     runtime: node
     plan: free
-    buildCommand: npm install
+    buildCommand: npm install && mkdir -p public && cp index.html public/index.html
     startCommand: npm start
     healthCheckPath: /api/health
     envVars:
